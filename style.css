@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .heading__font {
   font-family: Lora;
@@ -67,4 +68,96 @@
   letter-spacing: 2px;
   text-align: center;
   color: #2e2e2e;
+}
+
+.photography__block {
+  background-image: url("./images/image1.png");
+}
+.adventure__block {
+  background-image: url("./images/image2.png");
+}
+
+.photography__top__wrapper {
+}
+
+.mini__heading {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.blocks__heading {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.wrapper__text {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #fff;
+  opacity: 70%;
+}
+.review__wrapper {
+}
+
+.recent__block__heading {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+
+.recent__block__text {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0%;
+  color: #7a7a7a;
+}
+
+footer {
+  background-image: url("./images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__heading {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.input__footer::placeholder {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #817f83;
+}
+
+.submit__btn__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f8f8f8;
 }

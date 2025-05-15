@@ -17,18 +17,10 @@
         <nav
           class="right__wrapper w-[376px] h-[40px] flex justify-evenly nav__font items-center"
         >
-          <ul>
-            Home
-          </ul>
-          <ul>
-            Categories
-          </ul>
-          <ul>
-            About
-          </ul>
-          <ul>
-            Contact
-          </ul>
+          <a href="">Home</a>
+          <a href="">Categories</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
         </nav>
       </div>
 
@@ -40,7 +32,7 @@
           We travel the world in search of stories. Come along for the ride.
         </p>
         <button
-          class="info__btn w-[168px] h-[44px] bg-[#DD783F] flex justify-center items-center"
+          class="info__btn w-[168px] cursor-pointer h-[44px] bg-[#DD783F] flex justify-center items-center"
         >
           View Latest Posts
         </button>
@@ -55,9 +47,294 @@
       <p class="article__section">Adventrue</p>
     </div>
     <main class="bg-[#F7F7F7] h-[1255px] w-full flex flex-col items-center p-5">
-      <h1 class="main__heading">Featured Posts</h1>
-      <hr class="w-[188px] mt-[16px] border-[#2E2E2E]" />
+      <section
+        class="featured__posts mt-[32px] flex flex-col w-[940px] h-[415px] items-center gap-[16px]"
+      >
+        <h1 class="main__heading">Featured Posts</h1>
+        <hr class="w-[188px] border-[#DEDEDE]" />
+        <div class="h-[295px] w-full flex gap-[20px]">
+          <div
+            class="photography__block w-[460px] p-[20px] h-[280px] rounded-[3px] flex flex-col justify-between"
+          >
+            <div class="photography__top__wrapper">
+              <div
+                class="w-fit pr-[9px] pl-[9px] h-[26px] bg-[#A872B7] rounded-[2px] flex items-center justify-center"
+              >
+                <p class="mini__heading">Photography</p>
+              </div>
+            </div>
+
+            <div class="photography__bottom__wrapper flex flex-col gap-[8px]">
+              <h1 class="blocks__heading">The Road Ahead</h1>
+              <p class="wrapper__text">
+                The road ahead might be paved - it might not be.
+              </p>
+              <div class="review__wrapper flex justify-between w-full">
+                <div class="user photography__user flex gap-[10px]">
+                  <img
+                    src="./images/user1.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="wrapper__text !text-[12px]">Mat Vogels</p>
+                </div>
+                <div class="data">
+                  <p class="wrapper__text !text-[12px]">September 25, 2015</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="adventure__block w-[460px] p-[20px] h-[280px] rounded-[3px] flex flex-col justify-between"
+          >
+            <div class="aventure__top__wrapper">
+              <div
+                class="w-fit pr-[9px] pl-[9px] h-[26px] bg-[#DD783F] rounded-[2px] flex items-center justify-center"
+              >
+                <p class="mini__heading">Adventure</p>
+              </div>
+            </div>
+
+            <div class="aventure__bottom__wrapper flex flex-col gap-[8px]">
+              <h1 class="blocks__heading">From Top Down</h1>
+              <p class="wrapper__text">
+                Once a year, go someplace you’ve never been before.
+              </p>
+              <div class="review__wrapper flex justify-between w-full">
+                <div class="user aventure__user flex gap-[10px]">
+                  <img
+                    src="./images/user2.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="wrapper__text !text-[12px]">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="wrapper__text !text-[12px]">September 25, 2015</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="most_recent__section flex flex-col w-[940px] h-[750px] items-center gap-[16px]"
+      >
+        <h1 class="main__heading">Most Recent</h1>
+        <hr class="w-[188px] border-[#DEDEDE]" />
+
+        <div class="recent__block grid gap-[25px] grid-cols-3 grid-rows-2">
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/image3.png" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Still Standing Tall</h1>
+              <p class="recent__block__text">
+                Life begins at the end of your comfort zone.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user2.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/image4.png" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Sunny Side Up</h1>
+              <p class="recent__block__text">
+                No place is ever as bad as they tell you it’s going to be.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user2.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/image5.png" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Water Falls</h1>
+              <p class="recent__block__text">
+                We travel not to escape life, but for life not to escape us.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user2.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/image6.png" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Through the Mist</h1>
+              <p class="recent__block__text">
+                Travel makes you see what a tiny place you occupy in the world.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user2.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/fogimage.jpg" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Awaken Early</h1>
+              <p class="recent__block__text">
+                Not all those who wander are lost.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user1.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block__recent bg-[#fff]">
+            <img src="./images/image7.png" alt="" class="w-full h-[150px]" />
+            <div
+              class="recent__middle__wrapper w-full h-[93px] p-[13px] flex flex-col gap-[5px]"
+            >
+              <h1 class="recent__block__heading">Try it Always</h1>
+              <p class="recent__block__text">
+                The world is a book, and those who do not travel read only one
+                page.
+              </p>
+            </div>
+            <div class="recent__bottom__wrapper w-full h-[48px] flex">
+              <div
+                class="review__wrapper flex justify-between w-full items-center p-[13px] border-t-1 border-[#EFEFEF]"
+              >
+                <div class="user aventure__user flex gap-[10px] items-center">
+                  <img
+                    src="./images/user1.jpg"
+                    alt=""
+                    class="w-[26px] h-[26px] rounded-full"
+                  />
+                  <p class="recent__block__text">William Wong</p>
+                </div>
+                <div class="data">
+                  <p class="recent__block__text">9/12/25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="h-[378px] w-full flex flex-col items-center justify-between">
+      <form
+        class="form h-full flex flex-col items-center gap-[17px] justify-center"
+        onsubmit=""
+      >
+        <h1 class="footer__heading">Stay in Touch</h1>
+        <hr class="w-[188px] border-[#DEDEDE]" />
+        <div class="input__btn flex justify-center">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter your email address"
+            class="input__footer w-[375px] h-[50px] pl-[18px] bg-[#fff] rounded-l-[3px]"
+          />
+          <button
+            type="submit"
+            class="submit__btn cursor-pointer w-[125px] h-[50px] flex items-center justify-center bg-[#ffffff47] rounded-r-[3px]"
+          >
+            <span class="submit__btn__text relative">Submit</span>
+          </button>
+        </div>
+      </form>
+      <div
+        class="footer__bottom__wrapper w-full flex justify-center bg-[#232f3899] border-t-1 border-[#FFFFFF1f]"
+      >
+        <div class="nav w-[940px] h-[89px] flex items-center justify-between">
+          <a href="" class="left__wrapper heading__font text-white">Escape.</a>
+          <nav
+            class="right__wrapper w-[376px] h-[40px] flex justify-evenly nav__font items-center"
+          >
+            <a href="">Home</a>
+            <a href="">Categories</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
