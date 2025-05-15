@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+.heading__font {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+.nav__font {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.info__heading {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+}
+.info__text {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+  opacity: 66%;
+}
+
+.info__btn {
+  border-radius: 3px;
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.article__section {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #768088;
+}
+
+.main__heading {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #2e2e2e;
+}
